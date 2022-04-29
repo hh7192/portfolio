@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="slider.css" />
+
+    <!-------------------------- fonts -------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-------------------------- icons -------------------------->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>HamidreZa | My Learning Portfolio | Slider</title>
+  </head>
+  <body>
+    <!-------------------------- scrollbar -------------------------->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <!-------------------------- navbar -------------------------->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">HamidreZa</a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="enrolled.html">Enrolled</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!-------------------------- slider -------------------------->
+    <section class="slider">
+      <input type="radio" name="slider" checked="checked" />
+      <div class="imgBx">
+        <picture>
+          <source type="image/webp" srcset="img/img1.webp" />
+          <img src="img/img1.jpg" alt="slide1-image"
+        /></picture>
+        <div class="content">
+          <h2>Slide One</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            veritatis incidunt in sapiente, vel, adipisci tempora reiciendis
+            accusamus repudiandae sequi odit, facilis ullam ratione quos
+            possimus perferendis cum atque illo.
+          </p>
+          <a class="slider__btn" href="../index.html">Home</a>
+        </div>
+      </div>
+      <input type="radio" name="slider" />
+      <div class="imgBx">
+        <picture>
+          <source type="image/webp" srcset="img/img2.webp" />
+          <img src="img/img2.jpg" alt="slide1-image"
+        /></picture>
+        <div class="content">
+          <h2>Slide Two</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            veritatis incidunt in sapiente, vel, adipisci tempora reiciendis
+            accusamus repudiandae sequi odit, facilis ullam ratione quos
+            possimus perferendis cum atque illo.
+          </p>
+          <a class="slider__btn" href="../index.html">Home</a>
+        </div>
+      </div>
+      <input type="radio" name="slider" />
+      <div class="imgBx">
+        <picture>
+          <source type="image/webp" srcset="img/img3.webp" />
+          <img src="img/img3.jpg" alt="slide1-image"
+        /></picture>
+        <div class="content">
+          <h2>Slide Three</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            veritatis incidunt in sapiente, vel, adipisci tempora reiciendis
+            accusamus repudiandae sequi odit, facilis ullam ratione quos
+            possimus perferendis cum atque illo.
+          </p>
+          <a class="slider__btn" href="../index.html">Home</a>
+        </div>
+      </div>
+      <input type="radio" name="slider" />
+      <div class="imgBx">
+        <picture>
+          <source type="image/webp" srcset="img/img4.webp" />
+          <img src="img/img4.jpg" alt="slide1-image"
+        /></picture>
+        <div class="content">
+          <h2>Slide Four</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            veritatis incidunt in sapiente, vel, adipisci tempora reiciendis
+            accusamus repudiandae sequi odit, facilis ullam ratione quos
+            possimus perferendis cum atque illo.
+          </p>
+          <a class="slider__btn" href="../index.html">Home</a>
+        </div>
+      </div>
+      <input type="radio" name="slider" />
+      <div class="imgBx">
+        <picture>
+          <source type="image/webp" srcset="img/img5.webp" />
+          <img src="img/img5.jpg" alt="slide1-image"
+        /></picture>
+        <div class="content">
+          <h2>Slide Five</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+            veritatis incidunt in sapiente, vel, adipisci tempora reiciendis
+            accusamus repudiandae sequi odit, facilis ullam ratione quos
+            possimus perferendis cum atque illo.
+          </p>
+          <a class="slider__btn" href="../index.html">Home</a>
+        </div>
+      </div>
+    </section>
+    <!-------------------------- js script -------------------------->
+    <script src="../main.js"></script>
+  </body>
+</html>

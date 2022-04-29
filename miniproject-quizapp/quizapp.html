@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="quizapp.css" />
+
+    <!-------------------------- fonts -------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-------------------------- icons -------------------------->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>HamidreZa | My Learning Portfolio | Quiz App</title>
+  </head>
+  <body class="quiz__body">
+    <!-------------------------- scrollbar -------------------------->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <!-------------------------- navbar -------------------------->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">HamidreZa</a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="enrolled.html">Enrolled</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!-------------------------- quiz -------------------------->
+    <div class="container__quizbox">
+      <h2 class="quiz__title">RANDOM QUIZ</h2>
+      <div class="quiz__container" id="quiz">
+        <div class="quiz__header">
+          <h2 id="question">Question text</h2>
+          <ul class="quiz__list">
+            <li class="quiz__list-item">
+              <input type="radio" id="a" name="answer" class="answer" />
+              <label class="quiz__label" id="a_text" for="a">Question</label>
+            </li>
+            <li class="quiz__list-item">
+              <input type="radio" id="b" name="answer" class="answer" />
+              <label class="quiz__label" id="b_text" for="b">Question</label>
+            </li>
+            <li class="quiz__list-item">
+              <input type="radio" id="c" name="answer" class="answer" />
+              <label class="quiz__label" id="c_text" for="c">Question</label>
+            </li>
+            <li class="quiz__list-item">
+              <input type="radio" id="d" name="answer" class="answer" />
+              <label class="quiz__label" id="d_text" for="d">Question</label>
+            </li>
+          </ul>
+        </div>
+        <button class="quiz__btn" id="submit">Submit</button>
+      </div>
+    </div>
+    <!-------------------------- js script -------------------------->
+    <script src="quizapp.js"></script>
+    <script src="../main.js"></script>
+  </body>
+</html>

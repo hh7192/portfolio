@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="verslider.css" />
+    <link rel="stylesheet" href="boxicons.css" />
+
+    <!-------------------------- fonts -------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-------------------------- icons -------------------------->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <title>HamidreZa | My Learning Portfolio | Blurry Loading</title>
+  </head>
+  <body>
+    <!-------------------------- scrollbar -------------------------->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <!-------------------------- navbar -------------------------->
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">HamidreZa</a>
+        <ul class="nav__menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../about.html">About Me</a></li>
+          <li><a href="../courses.html">Sources</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!-------------------------- vertical slider -------------------------->
+    <section class="container-fluid slider-container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 left-slide">
+          <div style="background-color: darksalmon">
+            <h1>nature flower</h1>
+            <p>all in pink</p>
+          </div>
+          <div style="background-color: skyblue">
+            <h1>blue sky</h1>
+            <p>with its mountains</p>
+          </div>
+          <div style="background-color: darkgreen">
+            <h1>lonely castle</h1>
+            <p>in the wilderness</p>
+          </div>
+          <div style="background-color: darkgoldenrod">
+            <h1>flying eagle</h1>
+            <p>in the sunset</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 right-slide">
+          <div style="background-image: url(img/4.jpg)"></div>
+          <div style="background-image: url(img/3.jpg)"></div>
+          <div style="background-image: url(img/2.jpg)"></div>
+          <div style="background-image: url(img/1.jpg)"></div>
+        </div>
+        <div class="action-buttons">
+          <button class="down-button">
+            <i class="bx bxs-down-arrow"></i>
+          </button>
+          <button class="up-button">
+            <i class="bx bxs-up-arrow"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--------------------------  js script -------------------------->
+    <script src="../main.js"></script>
+    <script src="verslider.js"></script>
+  </body>
+</html>
