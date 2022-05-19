@@ -324,7 +324,7 @@ nav button {
     height: 100%;
 }
 
-.header__right h1 {
+.header__right h2 {
     text-transform: uppercase;
     font-weight: 800;
 }
