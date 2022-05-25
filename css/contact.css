@@ -71,6 +71,11 @@
 .form__name {
     display: flex;
     gap: 1.2rem;
+    background-attachment: scroll
+}
+
+.form__name:hover {
+    transform: scale(50%);
 }
 
 .contact__form input[type="text"] {
