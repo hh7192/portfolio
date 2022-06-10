@@ -1,0 +1,78 @@
+.lives {
+  font-size: 5rem;
+  margin: 25px;
+  display: none;
+  color: red;
+}
+
+.wrongGuessContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrongGuessContainer span {
+  color: gold;
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.correctGuesses {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.letter {
+  border-bottom: 3px solid blue;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+
+.resultContainer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultWin {
+  background-color: lightgreen;
+  border-radius: 1rem;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.resultLose {
+  background-color: lightsalmon;
+  border-radius: 1rem;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+}
+
+.messageWin {
+  color: green;
+}
+
+.messageLose {
+  color: red;
+}
+
+.reveal {
+  color: blue;
+  font-size: 50px;
+}
